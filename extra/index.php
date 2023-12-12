@@ -6,11 +6,11 @@ include_once "libraries/vendor/autoload.php";
 
   $google_client = new Google_Client();
 
-  $google_client->setClientId('34554899605-8eh9rrip3rja1vap434f6pfdr29b7sp7.apps.googleusercontent.com'); //Define your ClientID
+  $google_client->setClientId(''); //Define your ClientID
 
-  $google_client->setClientSecret('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'); //Define your Client Secret Key
+  $google_client->setClientSecret(''); //Define your Client Secret Key
 
-  $google_client->setRedirectUri('http://localhost/web%20project/'); //Define your Redirect Uri
+  $google_client->setRedirectUri(''); //Define your Redirect Uri
 
   $google_client->addScope('email');
 
