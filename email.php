@@ -56,14 +56,14 @@ try {
     $mail->isSMTP();
     $mail->Host       = 'smtp.gmail.com';
     $mail->SMTPAuth   = true;
-    $mail->Username   = 'tubestreamac@gmail.com';
-    $mail->Password   = 'hznlkvdtkkfehizl';
+    $mail->Username   = '';//sender mail address
+    $mail->Password   = '';//password
     $mail->SMTPSecure = 'ssl';
     $mail->Port       = 465;
     $htmlTemplate = file_get_contents('extra\email.html');
     $otp=rand(1000,9999);
     $_SESSION['otp']=$otp;
-    $mail->setFrom('tubestreamac@gmail.com', 'TubeStream');
+    $mail->setFrom('/* sender mail address*/', '/*name optional*/');
     $mail->addAddress($_SESSION['temail']);
     $htmlTemplate = str_replace('{{OTP}}', $otp, $htmlTemplate);
     $mail->isHTML(true);
