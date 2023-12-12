@@ -1,0 +1,46 @@
+*{margin: 0%;padding: 0%;background-color: #e6dff7;color: black;}
+.header{width: 100%;height: 80px;text-align: center;background-color: inherit;box-shadow: 0 0 0 1px rgb(170, 170, 170);position: fixed;border-bottom:1px solid black ;z-index: 100;}
+.logoh{width: 80px;height: 80px;float: left;margin-left: 20px;cursor: pointer;}
+.mh{display: inline-block;width: 50px;height: 50px;margin-top: 10px;}
+.menuh{display: inline-block;width: 30px;height: 30px;margin-top: 10px;background-color: transparent;}
+.mh:hover{background-color: #dddddd;border-radius: 10px;}
+.logo{width: 80px;height: 80px;cursor: pointer;margin-left: 100px;float: left;margin-top:-60px;}
+.seaicon{width: 20px;height: 20px;margin-top: 10px;background-color: transparent;}
+.search{width: 30%;height: 40px;display: inline-block;text-align: center;border-radius: 60px;background-color: #eeeeee;margin-top: 20px;}
+.search:hover{background-color: #ffffff;}
+.textbox:hover ~ .search{background-color: #ffffff;}
+.textbox{width: 85%;height: 35px;border-color: #e7e7e7;font-size: 20px;background-color: transparent;color: transparent;float: right;border-style: none;border-color: transparent;margin-top: 3px;outline: none;color: black;margin-right: 15px;}
+.mich{width: 50px;height: 50px;display: inline-block;margin-left: 10px;vertical-align: middle;margin-top: 0px;}
+.mic{display: inline-block;width: 35px;height: 35px;}
+.mic:hover{background-color: rgb(210, 250, 237);border-radius: 20px;}
+.sign{width: 80px;height: 35px;right: 20px;position: absolute;top: 25px;vertical-align:middle;font-size:15px;border-radius: 30px;box-shadow: 0 0 0 1px rgb(0, 183, 255);}
+.sign1{width: 100px;height: 35px;right: 20px;position: absolute;top: 25px;vertical-align:middle;font-size:15px;border-radius: 30px;box-shadow: 0 0 0 1px rgb(0, 183, 255);}
+.sign:hover{background-color: #ffffff;}
+.signicon{width: 40px;height: 40px;right: 11%;position: absolute;top: 30%;border-radius: 60px;z-index: 21;vertical-align:middle;background-color: transparent;}
+.signtext{width: 60px;height: 20px;right: 8%;position: absolute;top: 0%;border-radius: 30px;z-index: 21;color: rgb(0, 183, 255);margin-top: 8px;background-color: transparent;}
+.create{display:none;}
+.mylist{display:none;}
+.acc{display:none;}
+.inblock{display: inline-block;width: 100%;}
+.inblock:hover{background-color: aliceblue;}
+.mark{background-color: black;border-radius: 10px;display: block;width: 5px;height: 35px;}
+#m1{width: 80px;height: 600px;border-right: 1px solid black;position: fixed;margin-top: 85px;z-index:10;}
+.home{margin-left: 20px;background-color: rgb(184, 184, 184);cursor: pointer;width: 40px;height: 35px;vertical-align: middle;border-radius: 10px;margin-top: 10px;}
+.home:hover{background-color: rgb(21, 115, 197);}
+.hom:hover{background-color: rgb(21, 115, 197);}
+.text{display: none;}
+.hom{background-color: rgb(21, 115, 197);}
+#img{display: inline;width: 20px;height: 20px;background-color: transparent;margin-left: 10px;margin-top: 5px;vertical-align:-3px;}
+.text{background-color: transparent;font-size: 15px;margin-left: 10px;}
+.videoh, .acc{width: 92%;height: auto;margin-left: 100px;margin-top: 88px;border-radius: 10px;position:fixed;overflow-y: scroll;display: flex;flex-wrap: wrap;padding-bottom: 20px;}
+.acc{display: none;}
+.m11{margin-top: 30px;}
+.v1{width: 270px;height: 150px;background-color: yellow;display: inline-block;}
+.vh{width: auto;height: auto;border-top-right-radius: 10px;}
+.nm{width: 270px;height: 30px;background-color: yellowgreen;border-bottom-right-radius: 10px;border-bottom-left-radius:10px;}
+.name{width: 90%;height: 30px;background-color: blue;display: inline-block;}
+.menu{width: 5%;height: 100%;border-bottom-right-radius: 10px;display: inline-block;}
+.menu:hover{background-color: black;}
+video::-internal-media-controls-download-button{display: none;}
+.create{display:none;}
+.mylist{display:none;}

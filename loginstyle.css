@@ -1,0 +1,39 @@
+body{text-align: center;}
+#log{display: block;}
+#reg{display: block;}
+#forgotp{display: block;}
+#prset{display: block;}
+.loginh{display: inline-block;width: 400px;height: 500px;margin-top: 50px;border: 1px solid black;border-radius: 10px;}
+.email{width: 70%;height: 30px;position: relative;background-color: transparent;font-size: 20px;border-radius: 10px;margin-top: -5px;}
+.email:focus + .eh{font-size: 15px;margin-top: -45px;position: absolute;background-color: white;border-radius: 60px;z-index: 1;width: 120px;}
+.eh{position: absolute;margin-top: -28px;margin-left: 70px;font-size: 20px;z-index: -10;outline:none;}
+.pass{width: 70%;height: 30px;position: relative;background-color: transparent;font-size: 20px;border-radius: 10px;margin-top: -5px;}
+.pass:focus + .ph{font-size: 15px;margin-top: -45px;position: absolute;background-color: white;border-radius: 60px;z-index: 1;width: 140px;}
+.ph{position: absolute;margin-top: -28px;margin-left: 70px;font-size: 20px;z-index: -10;}
+.check{text-align:left;margin-left: 70px;}
+.for{display: inline-block;margin-top: 40px;}
+.glogin{width: 200px;height: 80px;cursor: pointer;}
+.remail{width: 70%;height: 30px;position: relative;background-color: transparent;font-size: 20px;border-radius: 10px;margin-top: -5px;}
+.remail:focus + .reh1{font-size: 15px;margin-top: -45px;position: absolute;background-color: white;border-radius: 60px;z-index: 1;width: 120px;display: block;}
+.reh1{position: absolute;margin-top: -28px;margin-left: 70px;font-size: 20px;z-index: -10;outline:none;}
+.rname{width: 70%;height: 30px;position: relative;background-color: transparent;font-size: 20px;border-radius: 10px;margin-top: -5px;}
+.rname:focus + .reh{font-size: 15px;margin-top: -45px;position: absolute;background-color: white;border-radius: 60px;z-index: 1;width: 120px;display: block;}
+.reh{position: absolute;margin-top: -28px;margin-left: 70px;font-size: 20px;z-index: -10;outline:none;}
+.rpass{width: 70%;height: 30px;position: relative;background-color: transparent;font-size: 20px;border-radius: 10px;margin-top: -5px;}
+.rpass:focus + .rph{font-size: 15px;margin-top: -45px;position: absolute;background-color: white;border-radius: 60px;z-index: 1;width: 110px;display: block;}
+.rph{position: absolute;margin-top: -28px;margin-left: 70px;font-size: 20px;z-index: -10;}
+.rpass1{width: 70%;height: 30px;position: relative;background-color: transparent;font-size: 20px;border-radius: 10px;margin-top: -5px;}
+.rpass1:focus + .rph1{font-size: 15px;margin-top: -45px;position: absolute;background-color: white;border-radius: 60px;z-index: 1;width: 120px;display: block;}
+.rph1{position: absolute;margin-top: -28px;margin-left: 70px;font-size: 20px;z-index: -10;}
+.femail{width: 70%;height: 30px;position: relative;background-color: transparent;font-size: 20px;border-radius: 10px;margin-top: -5px;z-index:2;}
+.femail:focus + .feh{font-size: 15px;margin-top: -45px;position: absolute;background-color: white;border-radius: 60px;z-index: 1;width: 120px;display: block;}
+.feh{position: absolute;margin-top: -28px;margin-left: 70px;font-size: 20px;z-index: -10;outline:none;}
+.rotp{width: 50%;height: 30px;position: relative;background-color: transparent;font-size: 20px;border-radius: 10px;margin-top: -5px;z-index: 2;}
+.rotp:focus + .otp{font-size: 15px;margin-top: -45px;position: absolute;background-color: white;border-radius: 60px;z-index: 1;width: 80px;display: block;margin-left: 110px;}
+.otp{position: absolute;margin-top: -28px;margin-left: 110px;font-size: 20px;z-index: 1;}
+.rpasset{width: 70%;height: 30px;position: relative;background-color: transparent;font-size: 20px;border-radius: 10px;margin-top: -5px;}
+.rpasset1{width: 70%;height: 30px;position: relative;background-color: transparent;font-size: 20px;border-radius: 10px;margin-top: -5px;}
+.rpasset:focus + .rpset{font-size: 15px;margin-top: -45px;position: absolute;background-color: white;border-radius: 60px;z-index: 1;width: 120px;display: block;}
+.rpasset1:focus + .rpset1{font-size: 15px;margin-top: -45px;position: absolute;background-color: white;border-radius: 60px;z-index: 1;width: 120px;display: block;}
+.rpset{position: absolute;margin-top: -28px;margin-left: 70px;font-size: 20px;z-index: -10;}
+.rpset1{position: absolute;margin-top: -28px;margin-left: 70px;font-size: 20px;z-index: -10;}

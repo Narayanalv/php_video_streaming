@@ -1,0 +1,32 @@
+        *{background-color: #e6dff7;}
+        .mylist{width:200px;height: 600px;;border-right: 1px solid black;display: inline-block;}
+        .ulogo{width:100px;height:100px;border-radius:60px solid black;display:inline-block;background: url(./imgs/logo.png) no-repeat;background-size:100px 100px;}
+        .banner{width:300px;height:300px;display:inline;}
+        .home{margin-left: 10px;background-color: rgb(184, 184, 184);cursor: pointer;width: 150px;height: 35px;vertical-align: middle;border-radius: 10px;}
+        .hom{margin-left: 10px;background-color: rgb(184, 184, 184);cursor: pointer;width: 150px;height: 35px;vertical-align: middle;border-radius: 10px;margin-top: 10px;}
+        .logo{width: 100px;height: 100px;border-radius: 100px;position: absolute;margin-left: 45px;}
+        .home:hover{background-color: rgb(21, 115, 197);}
+        .hom:hover{background-color: rgb(21, 115, 197);}
+        #img{display: inline;width: 20px;height: 20px;background-color: transparent;margin-left: 10px;margin-top: 5px;vertical-align:-3px;}
+        /*.ban{margin-left: 250px;width: 800px;height: 400px;background-color: red;position: absolute;margin-top: -190px;text-align: center;vertical-align:middle;}*/
+        .video{background-color: green;width: 1000px;height: 100px;margin-left: 180px;margin-top: 90px;}
+        #pcontainer{display: none;}
+        .item{overflow: hidden;border-radius: 10px;transition: 04s ease-in;box-shadow: 1px 1px 3px grey;width: 150px;height: 100px;display: none;position: absolute;background-color: #d1d0d0;}
+        .item1{width: 100px;height: 50px;display:inline;vertical-align: middle;border-radius: 10px;}
+        a{text-decoration: none;font-size: 10px;width: auto;}
+        .item2{width: 100px;height: 50px;display:inline;vertical-align: middle;border-radius: 10px;margin-top: 0px;}
+        .hov{width: 150px;height: 50px;display: block;z-index: 10;}
+        .hov:hover{background-color: white;}
+        #up1{right: 3%;position: absolute;border-radius: 10px;top: 8px;width: 120px;height: 40px;background: url(./imgs/upl.png) no-repeat;background-size: 45px 40px;cursor: pointer;box-shadow: 0px 0px 0px 1px black;box-shadow:0 5px 30px rgba(0,0,0,.30);}
+        #up{margin-left: 50px;margin-top: 10px;}
+        #up1:hover{background-color: #d0d0d0;}
+        .box{position: fixed;top: 40px;right: 3%;height: 100px;transition-delay: 0.3s;width: 120px;transition: 0.5 cubic-bezier(0.445, 0.05, 0.55, 0.95);display: none;flex-direction: column;justify-content: center;background-color: red;border-radius: 10px;}
+        .video1, .video2{width: 500px;height: auto;position: fixed;top: 18%;left: 30%;box-shadow:0 5px 30px rgba(0,0,0,.30);transform: translate(0%,-1000%);}
+        .active{transform: translate(0%,0%);transition:.5s;border-radius: 20px;}
+        .loghold{width:auto;height:auto;top:0%;margin-left:0%;}
+        .history, .videoholder, .like, .save{margin-left: 220px;height: 590px;position: absolute;display: block;width: 82%;border-radius: 10px;}
+        .namehold{width:200px;height:40px;position:absolute;margin-top:-285px;margin-left:45%;font-size: 25px;box-shadow:0 5px 30px rgba(0,0,0,.30);background-color: aqua;padding-top: 10px;}
+        .mark{background-color: grey;}
+        .foll{margin-left: 35px;background-color: rgb(184, 184, 184);cursor: pointer;width: 100px;height: 20px;vertical-align: middle;border-radius: 60px;text-align: center;}
+        .ac{background-color: red;}
+        .ac1{background-color: rgb(0, 255, 81);}
