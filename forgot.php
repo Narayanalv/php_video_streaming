@@ -130,8 +130,8 @@ try {
     $mail->isSMTP();
     $mail->Host       = 'smtp.gmail.com';
     $mail->SMTPAuth   = true;
-    $mail->Username   = 'tubestreamac@gmail.com';
-    $mail->Password   = 'otrzcqckpdkltcvv';
+    $mail->Username   = '';//sender mail address
+    $mail->Password   = '';//password
     $mail->SMTPSecure = 'ssl';
     $mail->Port       = 465;
     $htmlTemplate = file_get_contents('extra\email.html');
